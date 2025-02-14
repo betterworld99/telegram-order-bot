@@ -46,10 +46,10 @@ This repository includes a GitHub Actions workflow (.github/workflows/bot.yml) t
 ⚠️ However, GitHub Actions does not keep the bot running 24/7. Instead, it executes the script and stops when finished. If you need continuous execution, see the Deployment section below.
 
 ⚙️ Setting Up GitHub Actions
-#### 1️⃣ Enable GitHub Actions
+#### 1. Enable GitHub Actions
 Go to Settings → Actions
 Select Allow all actions and reusable workflows
-#### 2️⃣ Workflow File (.github/workflows/bot.yml)
+#### 2. Workflow File (.github/workflows/bot.yml)
 This repository includes a workflow to run the bot on GitHub Actions. It is located at:
 
 ```bash
@@ -67,7 +67,7 @@ This repository includes a workflow to run the bot on GitHub Actions. It is loca
 
 
 
-#### 3️⃣ How to Manually Trigger the Workflow
+#### 3️. How to Manually Trigger the Workflow
 To manually run the bot from GitHub Actions:
 
 Go to the "Actions" tab in your repository.
